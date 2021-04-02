@@ -6,6 +6,26 @@
 
 Bienvenido al repositorio **para los proyectos de ambas secciones** del curso PUC IIC2513 Tecnologías y Aplicaciones Web, en el período 2021-1. Acá podrás encontrar los enunciados y toda la información relacionada a los proyectos del curso. También, encontrarás el foro para realizar dudas como se describe a continuación.
 
+## Tabla de contenidos
+- [Wiki](#wiki)
+  - [Getting Started](#getting-started)
+  - [Comenzando el desarrollo](#comenzando-el-desarrollo)
+- [Dudas](#dudas)
+  - [Etiquetas](#etiquetas)
+  - [Procedimiento](#procedimiento)
+  - [Watch](#watch)
+
+## Knowledge base (Wiki)
+
+Tendremos mucha información útil en la Wiki de los proyectos, la cual pueden encontrar en el menú superior o haciendo clic [aquí](../../wiki).
+
+### Getting Started
+
+En particular, les sugerimos revisar [esta sección](../../wiki/Getting-Started) en la wiki antes de comenzar con su proyecto.
+
+### Comenzando el desarrollo
+
+En la sección [Comenzando el desarrollo](../../wiki/Comenzando-el-desarrollo) encontrarán información relacionada al template del curso y su uso.
 
 ## Dudas
 
@@ -46,4 +66,5 @@ Tanto al publicar como comentar, debes atenerte a las **normas del curso**. Adem
 Una vez resuelto el problema, da las gracias y, por favor, sugiere el **label 'Resuelta'**, pero **no la cierres**, ya que de esto se encargarán los/las ayudantes cuando corresponda :smiley:.
 
 ### Watch
+
 Se aconseja subscribirse a las issues mediante la opción de watch de Github, para recibir notificaciones por correo de las preguntas, que pueden ser muy útiles. Considerar que después de cada entrega se cerrarán las issues relacionadas, por lo que se conseja cancelar la subscripción temporalmente en caso de que se hayan acumulado demasiadas. Se intentará realizar el cierre de issues de una entrega el viernes inmediatamente posterior, entre 13hrs y 14hrs.
