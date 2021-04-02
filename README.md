@@ -7,7 +7,7 @@
 Bienvenido al repositorio **para los proyectos de ambas secciones** del curso PUC IIC2513 Tecnologías y Aplicaciones Web, en el período 2021-1. Acá podrás encontrar los enunciados y toda la información relacionada a los proyectos del curso. También, encontrarás el foro para realizar dudas como se describe a continuación.
 
 ## Tabla de contenidos
-- [Wiki](#wiki)
+- [Knowledge base (Wiki)](#knowledge-base-wiki)
   - [Getting Started](#getting-started)
   - [Comenzando el desarrollo](#comenzando-el-desarrollo)
 - [Dudas](#dudas)
