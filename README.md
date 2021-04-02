@@ -1,6 +1,9 @@
 # IIC2513 - Tecnologías y Aplicaciones Web - Proyectos
+
 ## Repositorio de Proyectos
+
 #### 2021-1 Secciones 1 y 2
+
 Bienvenido al repositorio **para los proyectos de ambas secciones** del curso PUC IIC2513 Tecnologías y Aplicaciones Web, en el período 2021-1. Acá podrás encontrar los enunciados y toda la información relacionada a los proyectos del curso. También, encontrarás el foro para realizar dudas como se describe a continuación.
 
 
@@ -10,7 +13,7 @@ La página de [Issues](../../issues) se utilizará como foro para **preguntas re
 
 ### Etiquetas
 
-Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y sugerir una etiqueta. Sobre todo, sugiere la etiqueta de 'Resuelta' cuando lo esté. \
+Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y [sugerir una etiqueta](../../labels). Sobre todo, sugiere la etiqueta de 'Resuelta' cuando lo esté. \
 **Para sugerir una etiqueta** inclúyela al principio del título, de la forma "[ETIQUETA] Título". El equipo docente la confirmará.
 
 * [Material](../../labels/Material): para discutir sobre el material entregado por el equipo docente.
@@ -22,6 +25,9 @@ Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categoría
 * [Inválida](../../labels/Inv%C3%A1lida): la pregunta no cumple los estándares o viola el procedimiento descrito abajo.
 * [Meta-pregunta](../../labels/Meta-Pregunta): pregunta sobre cómo y qué preguntar.
 * [Tengo un error](../../labels/Tengo%20un%20error): para preguntar sobre errores o bugs en códigos antes de caer en la desesperación (pero luego de haber buscado apropiadamente en la Web...).
+* [Heroku](../../labels/Heroku): para preguntar sobre errores o dudas que pueden tener con Heroku y el _deploy_ de su _app_.
+* [Postgres](../../labels/Postgres): para preguntar sobre errores o dudas que pueden tener con el manejo de su base de datos.
+* [Importante](../../labels/Importante): issues con información importante que **deben** leer.
 * [Resuelta](../../labels/Resuelta): para preguntas que hayan sido resueltas. Con ella se evita cerrar preguntas resueltas que puedan seguir siendo muy útiles, por estar relacionadas a la entrega presente.
 
 ### Procedimiento
