@@ -1,6 +1,6 @@
-# IIC2513 - Tecnologías y Aplicaciones Web - Tareas
+# IIC2513 - Tecnologías y Aplicaciones Web - Proyectos
 ## Repositorio de Proyectos
-## 2021-1 Secciones 1 y 2
+#### 2021-1 Secciones 1 y 2
 Bienvenido al repositorio **para los proyectos de ambas secciones** del curso PUC IIC2513 Tecnologías y Aplicaciones Web, en el período 2021-1. Acá podrás encontrar los enunciados y toda la información relacionada a los proyectos del curso. También, encontrarás el foro para realizar dudas como se describe a continuación.
 
 
