@@ -4,11 +4,11 @@
 Bienvenido al repositorio **para los proyectos de ambas secciones** del curso PUC IIC2513 Tecnologías y Aplicaciones Web, en el período 2021-1. Acá podrás encontrar los enunciados y toda la información relacionada a los proyectos del curso. También, encontrarás el foro para realizar dudas como se describe a continuación.
 
 
-# Dudas
+## Dudas
 
 La página de [Issues](../../issues) se utilizará como foro para **preguntas relacionadas directamente a los proyectos y su desarrollo** (enunciado, template, errores comunes, librerías permitidas, etc). **Para dudas administrativas y de materia se debe usar el foro respectivo de la sección.**
 
-## Etiquetas
+### Etiquetas
 
 Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsqueda de problemas similares. Una entrada puede tener múltiples etiquetas. Aunque el equipo docente irá etiquetando según corresponda, también puedes adelantarte y sugerir una etiqueta. Sobre todo, sugiere la etiqueta de 'Resuelta' cuando lo esté. \
 **Para sugerir una etiqueta** inclúyela al principio del título, de la forma "[ETIQUETA] Título". El equipo docente la confirmará.
@@ -24,7 +24,7 @@ Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categoría
 * [Tengo un error](../../labels/Tengo%20un%20error): para preguntar sobre errores o bugs en códigos antes de caer en la desesperación (pero luego de haber buscado apropiadamente en la Web...).
 * [Resuelta](../../labels/Resuelta): para preguntas que hayan sido resueltas. Con ella se evita cerrar preguntas resueltas que puedan seguir siendo muy útiles, por estar relacionadas a la entrega presente.
 
-## Procedimiento
+### Procedimiento
 
 Antes de postear:
 * Busca en Internet para encontrar la solución.
@@ -39,5 +39,5 @@ Tanto al publicar como comentar, debes atenerte a las **normas del curso**. Adem
 
 Una vez resuelto el problema, da las gracias y, por favor, sugiere el **label 'Resuelta'**, pero **no la cierres**, ya que de esto se encargarán los/las ayudantes cuando corresponda :smiley:.
 
-## Watch
+### Watch
 Se aconseja subscribirse a las issues mediante la opción de watch de Github, para recibir notificaciones por correo de las preguntas, que pueden ser muy útiles. Considerar que después de cada entrega se cerrarán las issues relacionadas, por lo que se conseja cancelar la subscripción temporalmente en caso de que se hayan acumulado demasiadas. Se intentará realizar el cierre de issues de una entrega el viernes inmediatamente posterior, entre 13hrs y 14hrs.
