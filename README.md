@@ -10,6 +10,7 @@ Bienvenido al repositorio **para los proyectos de ambas secciones** del curso PU
 - [Knowledge base (Wiki)](#knowledge-base-wiki)
   - [Getting Started](#getting-started)
   - [Comenzando el desarrollo](#comenzando-el-desarrollo)
+- [Cápsulas complementarias](#c&#225;psulas-complementarias)
 - [Dudas](#dudas)
   - [Etiquetas](#etiquetas)
   - [Procedimiento](#procedimiento)
@@ -26,6 +27,10 @@ En particular, les sugerimos revisar [esta sección](../../wiki/Getting-Started)
 ### Comenzando el desarrollo
 
 En la sección [Comenzando el desarrollo](../../wiki/Comenzando-el-desarrollo) encontrarán información relacionada al template del curso y su uso.
+
+## Cápsulas complementarias
+
+El código asociado a cada cápsula complementaria lo pueden encontrar en [esta sección](Capsulas).
 
 ## Dudas
 

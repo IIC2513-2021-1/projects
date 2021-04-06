@@ -1,0 +1,426 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;}
+
+
+  /******************************************************** LOGO ****************************************************/
+#brandbar{
+  background-color: hsl(0, 30%, 96%);
+  margin: 0;
+  padding: 0;
+}
+/* OJO con el uso de pixeles vs el uso de porcentajes para definir tamaños*/
+#brand{
+  margin-top: 0px;
+  font-family: 'Pacifico', cursive;;
+  background-color: hsl(0, 30%, 96%);
+  border: black solid;
+  width: 255px;
+  color: rgb(15, 1, 1);
+}
+#brand p{
+  margin:0;
+}
+#brand img{
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#brand span{
+  margin: 0px;
+  font-size: 40px;
+}
+/******************************************************** STICKY BAR  *********************************************/
+#sticky-navbar p {
+  font-size: 20px;
+  border: black solid;
+  background-color: hsl(0, 30%, 96%);
+  color:rgb(88, 86, 86);
+  text-align: center;
+  margin: 0;
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(146, 142, 142);
+}
+a{
+  text-decoration: none;
+  color:rgb(88, 86, 86);
+}
+
+
+/******************************************************* ICONOS ***************************************************/
+
+#iconos {
+  border: rgb(15, 1, 1) solid;
+  padding: 2px;
+  margin-right: 10px;
+}
+#iconos i{
+  font-size: 36px;
+}
+/******************************************************** HEADER ***************************************************/
+header{
+  border: rgb(15, 1, 1) solid;
+  padding-top: 50px;
+}
+header img{
+  width: 200px;
+  height: auto
+}
+header .profile-pic{
+  width: 200px;
+  height: 200px;
+  margin: 0px 20px 20px 100px;
+  border-radius: 50%/50%;
+  overflow: hidden;
+}
+header h1, header h2, header h4{
+  font-weight: normal;
+  margin:5px   
+}
+header h4{
+  font-style: italic;
+  color:rgb(88, 86, 86);
+}
+
+
+/******************************************************************************************************************/
+/**************************************************   GUION   *****************************************************/
+/******************************************************************************************************************/
+
+
+/**************************************************   LOGO   ******************************************************/
+/* PARTE 1.1 ******************************************************************************************************/
+/* Quiero mover el nombre para que esté al lado de la imagen. Una forma de hacerlo es definiéndo la position
+del nombre como absolute. De esta forma, el elemento es sacado del flujo normal y puedo moverle x pixeles 
+en relación al elemento padre que tenga position relative (body por default)*/
+#brand span{
+  position: absolute;
+  top: 10px;
+  left: 80px;
+}
+/* PARTE 1.2 ******************************************************************************************************/
+/* Ahora, voy a tener problemas si quiero mover todo los elementos de brand juntos. Veamos que pasa al aumentarle
+el margen izquierdo */
+#brand{
+  margin-left: 500px;
+}
+/* Lo que ocurrió es que al no formar parte del normal flow, el nombre (Webgram), no va a seguir al elemento
+de id brand, deja de ser su padre de cierta forma. */
+/* PARTE 1.3 ******************************************************************************************************/
+/* Para que entonces los elementos se muevan juntos, puedo asignarle a #brand el position:relative. De esta forma,
+todos sus hijos que tengan position:absolute (nombre de la marca), se desplazarán x pixeles en relación a este.*/
+#brand{
+  margin-left: 0px;
+  position: relative;  
+  left: 0px;/* Cambiar valor de left para mostrar como se mueve en relación a su posición inicial, dejar en 0.
+  Dar a entender que poner left signica que se mueve "from left", no hacia la izquierda*/
+}
+
+
+/**************************************************   NAVBAR   ****************************************************/
+/* PARTE 2.1 ******************************************************************************************************/
+/* Quiero cambiar la distribución de mis elementos. En vez de que estén uno sobre el otro, quiero que estén uno
+al lado del otro. Usaremos float:left y como tengo 4 cajas, les designaré a cada una un ancho/width de 25%. */
+#sticky-navbar p {
+  width: 25%; /* Al cambiar este valor podemos ver como float va poniendo los elementos uno a la izquierda del otro, hasta
+  que ya no caben más. Ahí los pasa a la siguiente línea */
+  float: left; 
+}
+/* PARTE 2.2 ******************************************************************************************************/
+/* Ahora, quiero que esta navbar me siga al hacer scrolling. Podemos intentar con position:fixed para fijar la barra*/
+#sticky-navbar{
+  position: fixed;   
+}
+/* Esta solución además de alterarnos el tamaño que habías definido, no se ve agradable, porque lo que se quiere 
+es que la navbar quede en la parte superior de la página. Probemos con otra forma. */
+/* PARTE 2.3 ******************************************************************************************************/
+/* Si esta vez trabajamos con position:sticky y definimos top:0, estaremos definiendo que cuando la navbar este a
+0px de la parte superior de la página) pasaré de comportarse de forma relative a fixed.*/
+#sticky-navbar{
+  position: sticky;   
+  top:0;
+}
+
+
+/**************************************************   ICONOS   ****************************************************/
+/* PARTE 3.1 ******************************************************************************************************/
+/* Tengo el ícono de la cámara y de los mensajes. Y me gustaría que estos estuvieran al lado derecho de la página.
+y que me siguieran al hacer scrolling. Para esto definimos position fixed y la posición en relación al viewport en
+que quiero que quede el elemento que contiene a los iconos*/
+#iconos {
+  position: fixed;
+  right: 0;
+  top: 50%; 
+}
+/* PARTE 3.2 ******************************************************************************************************/
+/* Ahora me gustaría que los iconos estuvieran apilados uno sobre el otro, esto lo hago on un truquito de float. 
+En primer lugar debo definir que ambos elementos estén floating. Como en este caso no nos importa que
+elemento este arriba del otro y además antes fijamos que el elemento entero iba a estar a la derecha del viewport,
+entonces no importa si ponemos float right o left.*/
+#iconos i{
+  float: right; /* Mostrar como cambia el orden de los elementos si es que ocupo left y right*/
+}
+/* PARTE 3.2 continuación *****************************************************************************************/
+/* Si hacemos solo el paso anterior, aún no lograré el objetivo. Para que se logren poner en vertical, añado el 
+atributo clear a los elementos. Este atributo "prohibe" que haya un elemento floating right o left al lado 
+del elemento que lo tenga */
+#iconos i{
+  clear: right; /* Usar right si el float de antes era right*/
+}
+
+
+/**************************************************   HEADER   ****************************************************/
+/* PARTE 4.1 ******************************************************************************************************/
+/* Para el encabezado, quiero que mi información este al lado derecho de la foto de perfil. Para esto haremos que la 
+foto quede floating left*/
+header .profile-pic{
+  float: left; 
+}
+/* Podemos ver que el texto sube y se ubica al lado de la imagen, y esto se debe a que float no saca al elemento del
+normal flow como lo hace position absolute. Sin embargo, vemos que el tamaño del elemento que contenía a la imagen
+pasa a adpatarse al tamaño del texto. Ocuparemos el truquito de float que vimos antes para arreglar esto.*/
+/* PARTE 4.2 */
+/* Para esta parte vamos a ir al html y agregaremos bajo el texto un div sin ningún contenido, que será de la clase
+clearfix, luego definiremos que los elementos de la clase clearfix no deben tener ningún float al lado */
+.clearfix {
+  clear: both;
+}
+/* De esta forma se nos soluciona el problema y la imagen ya no se sale del header */
+
+
+/*SECCION FEED*/
+
+/* Primero le damos estilo a los elementos generales que estarán 
+en ambas secciones */
+
+/*Primero le ponemos estilo a los titulos */
+
+
+
+section h1 {
+    color: rgb(49, 41, 61);
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 0.8em 0 0 0.6em;
+}
+  
+section h2 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+  
+
+/*Luego le damos un estilo definido a todos los elementos box*/
+
+.box {
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.8);
+    border: 0.1em solid rgb(49, 41, 61);
+    box-shadow: 0.1em 0.1em 0.1em rgba(252, 252, 252, 0.8);
+    border-radius: 0em;
+    font-size: 2em;
+}
+
+/* Ahora dividiremos el feed en dos secciones.
+Una de estas mostrará como se usa Grid y la otra mostrara como se usa Flexbox*/
+
+
+/* Seccion 1 - Uso de Grid*/
+
+/* Le daremos un color de fondo a esta seccion para poder diferenciarla */
+
+  section#section-one {
+
+    background: rgba(255, 153, 0, 0.8);
+    background: linear-gradient(
+      150deg,
+      rgba(255, 153, 0, 0.8),
+      rgba(255, 245, 0, 0.7)
+    );
+  }
+  
+
+  /* Aquí podemos ver que le asignamos un display de grid para asi ubicar los elementos en una grilla */
+  section#section-one .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Aquí definimos las cantidad de columnas que tendra la grilla y que tamaño tendrá cada una*/
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;/* Aquí definimos las cantidad de filas que tendra la grilla y que tamaño tendrá cada una*/
+    /* Con esto dijimos que la grilla tendrá 6 columnas y 6 filas y que cada columna y fila ocupara 1/6 de la grilla*/
+    margin: 1em;
+    grid-gap: 1em;
+  }
+
+  /* Ahora definimos donde empezara y terminará cada elemento de la grilla
+  Para grid column tenemos "inicio columna" / "final columna" y se ve de izquierda a derecha
+  Para grid row tenemos "inicio fila" / "término fila" y se ve de arriba a abajo */
+  .s1-a {
+    background-image: url('images/6616cb8be99597f027cbf4318576e026.jpg');
+    background-size:cover;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+  }
+  
+  .s1-b {
+    background-image: url('images/Shrek2-disneyscreencaps.com-1324.jpg');
+    background-size:cover;
+    grid-column: 4 /6;
+    grid-row: 6 / 1;
+  }
+  
+  .s1-c {
+    background-image: url('images/far-away-before.jpg');
+    background-size:cover;
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+  }
+  
+  .s1-d {
+    background-image: url('images/3fb598e6abf7ca6f355b82520fc7e243.jpg');
+    background-size:cover;
+    grid-column: 3 / 4;
+    grid-row: 3 / 6;
+  }
+  
+  .s1-e {
+    background-image: url('images/Linea-base-paisaje.jpg');
+    background-size:cover;
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+  }
+  
+
+
+
+  /* Seccion 3 - Uso de Flexbox*/
+   
+  /* Aqui le damos un color de fondo a la seccion */
+  section#section-three {
+    background: rgba(0, 255, 98, 0.8);
+    background: linear-gradient(
+      150deg,
+      rgba(0, 255, 98, 0.8),
+      rgba(0, 157, 255, 0.7)
+    );
+  }
+  
+/* Aqui vemos que le damos un display:flex y definimos la direccion como fila con flex-direction: row*/
+  section#section-three .flex {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction = column;  como se vería con columnas en lugar de filas*/ 
+    justify-content: space-around;
+    padding-bottom: 10px;
+    margin: 0;
+    list-style: none;
+    flex-flow: row wrap; /* Con esto hacemos que si uno de los bloques no cabe pase a la fila de abajo y no quede desproporcionado*/
+  }
+  
+  /* Aqui le damos estilo a cada bloque*/
+  .s3-a {
+    background-image: url('images/cuento-shrek.jpg');    
+    background-size:cover;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .s3-b {
+    background-image: url('images/Shrek-pelicula-eeuu-biblioteca-congreso-patrimonio-cultural.jpg');
+    background-size:cover;
+
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .s3-c {
+    background-image: url('images/Shrek.jpg');
+    background-size:cover;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .s3-d {
+    background-image: url('images/shrek\ \(1\).jpg');
+    background-size:cover;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .s3-e {
+    background-image: url('images/shrek2.jpg');
+    background-size:cover;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .s3-f {
+    background-image: url('images/shrekportada-scaled.jpg');
+    background-size:cover;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+/* You don't need the CSS below, just copy 'html' and 'footer' above */
+footer{background:#8e44ad;text-align:center;}
+footer a{color:#fff;text-decoration:none; display:inline-block}
