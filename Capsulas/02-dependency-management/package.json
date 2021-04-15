@@ -1,0 +1,26 @@
+{
+  "name": "carrito",
+  "version": "1.0.0",
+  "description": "Aplicación de ejemplo de carrito de compras para el curso PUC IIC2513 Sección 2, 2020-2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUCIIC2513/2020-2.git"
+  },
+  "keywords": [
+    "carrito"
+  ],
+  "author": "B-Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PUCIIC2513/2020-2/issues"
+  },
+  "homepage": "https://github.com/PUCIIC2513/2020-2#readme",
+  "dependencies": {
+    "koa": "^2.13.0"
+  }
+}
