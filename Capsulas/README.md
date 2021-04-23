@@ -12,6 +12,6 @@ Aquí encontrarán el código relacionado a las diferentes video-cápsulas, dond
 | 3    | PostgreSQL             | [osx](03-postgresql/osx) [ubuntu](03-postgresql/ubuntu)| [video osx](https://drive.google.com/file/d/1UPyqIrCnCTU_5FubZ-xf-z3AgzYa27nN/view?usp=sharing) [video ubuntu](https://drive.google.com/file/d/1eJWm50bVQo_zTRr-3S4tPMxe2h3JFCfN/view?usp=sharing) |
 | 4    | Variables de entorno   | [guía](04-env-variables)| [video](https://drive.google.com/file/d/1bhGGE95oK_4GLz_hBxGi7aCZ-X60fARF/view?usp=sharing) |
 | 5    | Introducción al _template_ | [guía](05-course-template)| [video](https://drive.google.com/file/d/16Rt7R6lu46X86LPf6do-v6bjHbP9KhAL/view?usp=sharing) |
-| 6    | ORM: Sequelize | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1RyyKcPBDD61AGh8aFULFOkUj716xeMKj/view?usp=sharing) | [video](https://drive.google.com/file/d/1rtUxr2MlvqYNR5LuKmFi4bCIASByz6qx/view?usp=sharing)
-| 7    | Deploy a Heroku | [Mismo de C06](https://github.com/IIC2513-2021-1/GudReads/pull/1)|  |
+| 6    | ORM: Sequelize | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1RyyKcPBDD61AGh8aFULFOkUj716xeMKj/view?usp=sharing) |
+| 7    | Deploy a Heroku | [Mismo de C06](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1rtUxr2MlvqYNR5LuKmFi4bCIASByz6qx/view?usp=sharing)  |
 | 8    | Routing: Recurso de lectura | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/2)| [video](https://drive.google.com/file/d/1IEbGFepbOLrrBLOX_fzAIEZnyWm74RM4/view?usp=sharing) |
