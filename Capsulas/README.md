@@ -13,5 +13,5 @@ Aquí encontrarán el código relacionado a las diferentes video-cápsulas, dond
 | 4    | Variables de entorno   | [guía](04-env-variables)| [video](https://drive.google.com/file/d/1bhGGE95oK_4GLz_hBxGi7aCZ-X60fARF/view?usp=sharing) |
 | 5    | Introducción al _template_ | [guía](05-course-template)| [video](https://drive.google.com/file/d/16Rt7R6lu46X86LPf6do-v6bjHbP9KhAL/view?usp=sharing) |
 | 6    | ORM: Sequelize | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1EhNQ4CnP3j2dn1x5yyrrjN5XhejDba3i/view?usp=sharing) |
-| 7    | Deploy a Heroku | |  |
+| 7    | Deploy a Heroku | [Mismo de C06](https://github.com/IIC2513-2021-1/GudReads/pull/1)|  |
 | 8    | Routing: Recurso de lectura | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/2)| [video](https://drive.google.com/file/d/1IEbGFepbOLrrBLOX_fzAIEZnyWm74RM4/view?usp=sharing) |
