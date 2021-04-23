@@ -15,3 +15,5 @@ Aquí encontrarán el código relacionado a las diferentes video-cápsulas, dond
 | 6    | ORM: Sequelize | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1RyyKcPBDD61AGh8aFULFOkUj716xeMKj/view?usp=sharing) |
 | 7    | Deploy a Heroku | [Mismo de C06](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1rtUxr2MlvqYNR5LuKmFi4bCIASByz6qx/view?usp=sharing)  |
 | 8    | Routing: Recurso de lectura | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/2)| [video](https://drive.google.com/file/d/1IEbGFepbOLrrBLOX_fzAIEZnyWm74RM4/view?usp=sharing) |
+| 9    | Routing: Conexión entre recursos | [Pr en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/3) | [video](https://drive.google.com/file/d/1cnGF5UFapXaxytFVYrWnI08lmfKekD2E/view?usp=sharing)|
+| 10    | Implementación de Create | [Pr en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/4) | [video](https://drive.google.com/file/d/1fdi8dnrGSH5G0lVJYxq0wHUscSdLIIJ9/view?usp=sharing)|
