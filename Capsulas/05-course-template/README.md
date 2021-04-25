@@ -1,6 +1,6 @@
 # Tema: Introducción al _template_ del curso
 
-### Versión 1.0
+### Versión 1.1
 
 Por **Moisés Retamal** (meretamal@uc.cl)
 
@@ -54,7 +54,7 @@ Para configurar la base de datos a utilizar en el proyecto, vamos usar variables
 
 ```env
 DB_NAME=mydatabase
-DB_USER=myuser
+DB_USERNAME=myuser
 DB_PASSWORD=mypassword
 ```
 
