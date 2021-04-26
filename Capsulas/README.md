@@ -5,8 +5,8 @@ Aquí encontrarán el código relacionado a las diferentes video-cápsulas, dond
 (*) La cápsula 2 fue grabada en el contexto de la sección 2 del periodo 2020-2 del curso, pero su contenido es pertinente a esta versión del curso. No se deben considerar comentarios sobre el desarrollo del curso, cápsulas, u otros, pues el programa ha cambiado.
 
 
-| Nro  | Nombre                 | Código                        | Video                                         |
-| :--- | :--------------------- | :---------------------------- | :-------------------------------------------- |
+| Nro  | Nombre                 | Código                        | Video                                         | Referencias |
+| :--- | :--------------------- | :---------------------------- | :-------------------------------------------- | :---------- |
 | 1    | CSS Layout             | [código](01-css-layout)       | [video](https://drive.google.com/file/d/1plZp3jonHUz1AvvkyA9TRKinDeKMm-zS/view?usp=sharing) |
 | 2    | Manejo de Dependencias | [original](https://github.com/PUCIIC2513/2020-2/tree/edf043e593eab1469d7aef1ed3c7d515dfa353d5/Material/carrito) [en este repo](02-dependency-management) | [video](https://drive.google.com/file/d/1TWEB6RFTREVpwCyIimO4GOupobndRr-B/view?usp=sharing) |
 | 3    | PostgreSQL             | [osx](03-postgresql/osx) [ubuntu](03-postgresql/ubuntu)| [video osx](https://drive.google.com/file/d/1UPyqIrCnCTU_5FubZ-xf-z3AgzYa27nN/view?usp=sharing) [video ubuntu](https://drive.google.com/file/d/1eJWm50bVQo_zTRr-3S4tPMxe2h3JFCfN/view?usp=sharing) |
@@ -14,6 +14,6 @@ Aquí encontrarán el código relacionado a las diferentes video-cápsulas, dond
 | 5    | Introducción al _template_ | [guía](05-course-template)| [video](https://drive.google.com/file/d/16Rt7R6lu46X86LPf6do-v6bjHbP9KhAL/view?usp=sharing) |
 | 6    | ORM: Sequelize | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1RyyKcPBDD61AGh8aFULFOkUj716xeMKj/view?usp=sharing) |
 | 7    | Deploy a Heroku | [Mismo de C06](https://github.com/IIC2513-2021-1/GudReads/pull/1)| [video](https://drive.google.com/file/d/1rtUxr2MlvqYNR5LuKmFi4bCIASByz6qx/view?usp=sharing)  |
-| 8    | Routing: Recurso de lectura | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/2)| [video](https://drive.google.com/file/d/1IEbGFepbOLrrBLOX_fzAIEZnyWm74RM4/view?usp=sharing) |
+| 8    | Routing: Recurso de lectura | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/2)| [video](https://drive.google.com/file/d/1IEbGFepbOLrrBLOX_fzAIEZnyWm74RM4/view?usp=sharing) | [EJS](https://ejs.co/#about), [Koa](https://koajs.com/), [Guía Koa](https://github.com/koajs/koa/blob/master/docs/guide.md), [git koa-router](https://github.com/ZijianHe/koa-router), [npm koa-router](https://www.npmjs.com/package/koa-router)|
 | 9    | Routing: Conexión entre recursos | [Pr en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/3) | [video](https://drive.google.com/file/d/1cnGF5UFapXaxytFVYrWnI08lmfKekD2E/view?usp=sharing)|
 | 10    | Implementación de Create | [Pr en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads/pull/4) | [video](https://drive.google.com/file/d/1fdi8dnrGSH5G0lVJYxq0wHUscSdLIIJ9/view?usp=sharing)|
