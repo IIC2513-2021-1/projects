@@ -9,7 +9,11 @@ La cápsula contempla un video con explicaciones y ejemplos, disponible en [este
 
 ## Consideraciones importantes
 
-Recuerden utilizar alguna convención al momento de realizar *commits*, para eso les recomendamos la convención que aparece en el primer lik de links importantes. Pueden utilizar otras convnciones, pero lo importante es que todos usen la misma y sea entendible. Por otra parte, es muy importante que al momento de crear una *pull request* agreguen una descripción que aclare que hicieron y asignen un *reviewer*, que será quien revisará lo que hicieron. Desde la entrega 1.2 en adelante evluaremos que realicen estas dos acciones, siguiendo GithubFlow, no GitFlow. En el caso de que quieran utilizar GitFlow con una *branch dev*, deben justificar el porqué a su ayudante, quién configurará los repositorios.La configuración del repositorio no les dejará hacer *merge* a menos que uno o dos *reviewers* les aprueben la *pull request*.
+Recuerden utilizar alguna convención al momento de realizar *commits*, para eso les recomendamos la convención que aparece en el primer link de links importantes. Pueden utilizar otras convenciones, pero lo importante es que todos usen la misma y sea entendible.
+
+Por otra parte, es muy importante que al momento de crear una *pull request* agreguen una descripción que aclare qué hicieron y asignen un *reviewer*, que será quien revisará lo que hicieron.
+
+Desde la entrega 1.2 en adelante evaluaremos que realicen estas dos acciones, siguiendo Github Flow (no GitFlow). En el caso de que quieran utilizar GitFlow con una *branch dev*, deben justificar el porqué a su ayudante, quién configurará los repositorios. La configuración del repositorio no les dejará hacer *merge* a menos que uno o dos *reviewers* les aprueben la *pull request*.
 
 ## Links importantes 
 
