@@ -1,0 +1,138 @@
+body {
+       background-color: ivory;       
+     }
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 33px;
+    font-weight: bold;
+    }
+
+span {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 1.8;
+      cursor: pointer;
+      transition: all 350ms;
+      color: darkred;
+      will-change: transform;
+     }
+
+span:hover{transform:scale(2, 2);}
+
+.liArrastrado{
+  color:red;
+}
+
+.panelIzquierdo{
+        padding-left:100px;
+        background-color:moccasin;
+        width:400px;
+        min-height: 300px;
+        padding:3px;
+        border: 2px solid darkblue;
+        position: absolute;
+        left: 470px;
+        top: 190px;
+      }
+
+.panelDerecho{
+        padding-left:100px;
+        background-color:khaki;
+        width:400px;
+        min-height: 300px;
+        padding:3px;
+        border: 2px solid teal;
+        position: absolute;
+        left: 900px;
+        top: 190px;
+      }
+
+.nuevoItem {
+        position: relative;
+        width: 350px;
+        margin: 0px auto;
+        display: block;
+        color: red;
+       }
+
+.input {
+        outline: none;
+        border: 2px solid olive;
+        background-color: gold;
+        color: darkgreen;
+        height: 53px;
+        width: 350px;
+        padding-left:10px;
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        margin-left: -5px;
+       }
+
+
+ul {
+    padding: 0px;
+  }
+
+.izquierda {
+      will-change: transform;
+      font-family: sans-serif;
+      font-weight: 800;
+      height: 50px;
+      list-style-type: none;
+      margin: 10px;
+      background-color: lightgray;
+      color: green;
+      width: 350px;
+      line-height: 3.2;
+      padding-left: 10px;
+      cursor: move;
+      transition: all 200ms;
+      user-select: none;
+      margin: 10px auto;
+      position: relative;
+      
+      &:hover {
+        &:after {
+          opacity: 1;
+          transform: translate(0);
+        }
+      }
+    }
+
+
+.derecha {
+      will-change: transform;
+      font-family: sans-serif;
+      font-weight: 800;
+      height: 50px;
+      list-style-type: none;
+      margin: 10px;
+      background-color: rgb(238, 235, 230);
+      color: darkgreen;
+      width: 350px;
+      line-height: 3.2;
+      padding-left: 10px;
+      cursor: move;
+      transition: all 200ms;
+      user-select: none;
+      margin: 10px auto;
+      position: relative;
+      
+      &:hover {
+        &:after {
+          opacity: 1;
+          transform: translate(0);
+        }
+      }
+    }
+
+.over {
+  transform: scale(1.1, 1.1);
+}

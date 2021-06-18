@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo Drag and Drop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" media ="screen" href="estilosDragAndDrop.css">
+</head>
+
+<body>
+  <h1>Ejemplo con Drag and drop</h1>
+  <div class="nuevoItem">
+    <input type="text" class="input">
+    <span class="nuevo">+</span>
+  </div>
+  <div class="panelIzquierdo" id="panelIzquierdo" >
+  <ul id="listaIzquierda" class="listaIzquierda">
+    <li class="izquierda" id="izq" draggable="true">Elemento uno</li>
+    <li class="izquierda" id="izq" draggable="true">Elemento dos</li>
+    <li class="izquierda" id="izq" draggable="true">Elemento tres</li>
+    <li class="izquierda" id="izq" draggable="true">Elemento cuatro</li>
+  </ul>
+</div>
+<div class="panelDerecho" id="panelDerecho" >
+  <ul id="listaDerecha" class="listaDerecha"><li class="derecha" id="der" draggable="true"></li></ul>
+
+</div>
+
+  <script src="dragAnddrop.js"></script> 
+</body>
+</html>
