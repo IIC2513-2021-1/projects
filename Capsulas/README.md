@@ -36,5 +36,5 @@ Aquí encontrarán el código relacionado a las diferentes video-cápsulas, dond
 | 27    | Intro a React | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads-front/pull/4) | [video](https://drive.google.com/file/d/18uSQ4w-voU2uEKKlJpw95dWn2nUAZpEH/view?usp=sharing) | [create-react-app](https://es.reactjs.org/docs/create-a-new-react-app.html)
 | 27 II | Configuración Airbnb | _N/A_ | [video](https://drive.google.com/file/d/1bO_uZrTIXOXGh4eh0yc2WLuoLSF22Sme/view?usp=sharing) |
 | 28    | Routing en React | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads-front/pull/5) | [video](https://drive.google.com/file/d/1vjRWWyeDwjyUqWHbj97cEGpsn800YqE7/view?usp=sharing) | [History API](https://developer.mozilla.org/es/docs/Web/API/History_API), [React Router](https://reactrouter.com/web/guides/quick-start)
-| 29    | Deploy a Netlify | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads-front/pull/7) | [video](https://drive.google.com/file/d/1GXZwGXS4e9iePgDeQpi8ZENHOUjC35sf/view?usp=sharing) | [Nelify](https://www.netlify.com/)
+| 29    | Deploy a Netlify | [PR en proyecto ejemplo](https://github.com/IIC2513-2021-1/GudReads-front/pull/7) | [video](https://drive.google.com/file/d/1GXZwGXS4e9iePgDeQpi8ZENHOUjC35sf/view?usp=sharing) | [Netlify](https://www.netlify.com/)
 
