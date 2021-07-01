@@ -1,0 +1,126 @@
+/* Write your CSS here */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+main {
+  background-color: #DAE8FC;
+  border: 1px solid #6C8EBF;
+  width: 70%;
+  margin: 20px auto;
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px solid #777;
+  background-color: #FFFFCC;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
+
+.content p {
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.btn {
+  padding: 20px;
+  margin: 0 10px;
+  font-family: Courier, monospace;
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 1px solid #777;
+  box-shadow: 5px 5px 5px #777;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 2px 2px 8px #777;
+}
+
+.btn-bisque {
+  background-color: bisque;
+}
+
+.btn-bisque:hover {
+  background-color: #fff8d8;
+}
+
+.btn-bisque:active {
+  background-color: #ebd0b0;
+}
+
+.btn-cadetblue {
+  background-color: cadetblue;
+}
+
+.btn-cadetblue:hover {
+  background-color: #73b2b4;
+}
+
+.btn-cadetblue:active {
+  background-color: #4b8a8c;
+}
+
+.btn-darkseagreen {
+  background-color: darkseagreen;
+}
+
+.btn-darkseagreen:hover {
+  background-color: #a3d0a3;
+}
+
+.btn-darkseagreen:active {
+  background-color: #7ba87b;
+}
+
+.btn-lightcoral {
+  background-color: lightcoral;
+}
+
+.btn-lightcoral:hover {
+  background-color: #ff9494;
+}
+
+.btn-lightcoral:active {
+  background-color: #dc6c6c;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.images img {
+  width: 30%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  border: 1px solid #B85450;
+  background-color: #F8CECC;
+  padding: 20px 0;
+  font-family: Georgia, serif;
+}
+
+footer a {
+  font-style: italic;
+}

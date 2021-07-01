@@ -1,0 +1,102 @@
+/* Write your CSS here */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+main {
+  background-color: #DAE8FC;
+  border: 1px solid #6C8EBF;
+  width: 70%;
+  margin: 20px auto;
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px solid #777;
+  background-color: #FFFFCC;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
+
+.content {
+  font-family: Arial, sans-serif;
+  display: flex;
+  padding: 20px 0;
+}
+
+.content-box {
+  background-color: white;
+  border: 1px solid #777;
+  padding: 20px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-box:first-child {
+  margin-left: 0;
+}
+
+.content-box:last-child {
+  margin-right: 0;
+}
+
+.content-box h2 {
+  margin: 0;
+}
+
+.content-box button {
+  align-self: flex-end;
+}
+
+.btn {
+  background-color: #1BA1E2;
+  color: white;
+  padding: 10px 20px;
+  font-family: Courier, monospace;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #006EAF;
+  /* box-shadow: 2px 2px 5px #777; */
+}
+
+.btn:hover {
+  background-color: #2fb5f6;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #1197d8;
+  box-shadow: 2px 2px 8px #777;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px 0;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  border: 1px solid #B85450;
+  background-color: #F8CECC;
+  padding: 20px 0;
+  font-family: Georgia, serif;
+}
+
+footer a {
+  font-style: italic;
+}
