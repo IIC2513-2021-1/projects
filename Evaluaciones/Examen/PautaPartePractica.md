@@ -75,7 +75,7 @@ const CompanySerializer = new JSONAPISerializer('companies', {
     if (stat) {
       const { crewedFlightOn, maxAltitude, vehicleType } = stat;
       // eslint-disable-next-line no-param-reassign
-      record.summaryStats = { crewedFlightOn, maxAltitude, vehicleType };
+      record.summary = { crewedFlightOn, maxAltitude, vehicleType };
     }
     return record;
   },
